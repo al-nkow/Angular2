@@ -11,3 +11,7 @@
 .list > li:hover {
     font-weight: bold;
 }
+
+.result {
+    padding: 10px;
+}
