@@ -1,0 +1,9 @@
+.main-container {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333333;
+}
