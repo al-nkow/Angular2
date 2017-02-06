@@ -1,3 +1,4 @@
+// starter
 import { Component } from "@angular/core";
 import { Phrase } from "./phrase"; // это просто тип (интерфейс из typescript)
 
