@@ -16,9 +16,13 @@ const PHRASES: Phrase[] = [
 ];
 
 @Component({
+    // module.id - это если используется SystemJs - для вебпака возможно по-другому
+    moduleId: module.id, // id модуля - теперь нет необходимости прописывать полный путь к шаблонам и стилям
     selector: "hello-world-list",
-    templateUrl: "app/hello-world-list/hello-world-list.component.html",
-    styleUrls: ["app/hello-world-list/hello-world-list.component.css"]
+    templateUrl: "hello-world-list.component.html",
+    styleUrls: ["hello-world-list.component.css"]
+    // templateUrl: "app/hello-world-list/hello-world-list.component.html",
+    // styleUrls: ["app/hello-world-list/hello-world-list.component.css"]
 })
 export class HelloWorldListComponent {
 

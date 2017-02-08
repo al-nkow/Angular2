@@ -31,9 +31,11 @@ var HelloWorldListComponent = (function () {
 }());
 HelloWorldListComponent = __decorate([
     core_1.Component({
+        // module.id - это если используется SystemJs - для вебпака возможно по-другому
+        moduleId: module.id,
         selector: "hello-world-list",
-        templateUrl: "app/hello-world-list/hello-world-list.component.html",
-        styleUrls: ["app/hello-world-list/hello-world-list.component.css"]
+        templateUrl: "hello-world-list.component.html",
+        styleUrls: ["hello-world-list.component.css"]
     })
 ], HelloWorldListComponent);
 exports.HelloWorldListComponent = HelloWorldListComponent;
